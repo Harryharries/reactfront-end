@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#fff"
   },
   hero: {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80')`,
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/image/background.png')`,
     height: "500px",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -76,7 +76,7 @@ function App() {
         </Toolbar>
       </AppBar>
       <Box className={classes.hero}>
-        <Box>React Blog</Box>
+        <Box>Harry Guapi Blog</Box>
       </Box>
       <Container maxWidth="lg" className={classes.blogsContainer}>
         <Typography variant="h4" className={classes.blogTitle}>
@@ -93,20 +93,22 @@ function App() {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    React useContext
+                  what is GraphQL and GraphQL vs REST API and syntax
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                    -pros vs: RESTFUL
+                    GraphQL can more Precisely get data from Back-end reduce many data redundancies 
+                    get multiple resources only using one request
+                    easy to maintain (e.g. add or remove query)
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions className={classes.cardActions}>
                 <Box className={classes.author}>
-                  <Avatar src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                  <Avatar src="../public/image/1.png" />
                   <Box ml={2}>
                     <Typography variant="subtitle2" component="p">
-                      Guy Clemons
+                      Harry
                     </Typography>
                     <Typography variant="subtitle2" color="textSecondary" component="p">
                       May 14, 2020
@@ -132,17 +134,18 @@ function App() {
                     React Router
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                  Backend:
+1: return different context by different URL request:
+2: the relationship between URL request address and server resource
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions className={classes.cardActions}>
                 <Box className={classes.author}>
-                  <Avatar src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80" />
+                  <Avatar src="../public/image/1.png" />
                   <Box ml={2}>
                     <Typography variant="subtitle2" component="p">
-                      Guy Clemons
+                      Harry
                     </Typography>
                     <Typography variant="subtitle2" color="textSecondary" component="p">
                       May 14, 2020
@@ -175,13 +178,13 @@ function App() {
               </CardActionArea>
               <CardActions className={classes.cardActions}>
                 <Box className={classes.author}>
-                  <Avatar src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                  <Avatar src="../public/image/1.png" />
                   <Box ml={2}>
                     <Typography variant="subtitle2" component="p">
-                      Guy Clemons
+                      Harry
                     </Typography>
                     <Typography variant="subtitle2" color="textSecondary" component="p">
-                      May 14, 2020
+                      May 2, 2020
                     </Typography>
                   </Box>
                 </Box>
@@ -204,20 +207,27 @@ function App() {
                     React useContext
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                  React's State is VUE's data
+
+            need re-render to DOM，using setState
+
+             this.setState will not change the DOM immediately,
+
+            react will wait for all the state changed by the function. 
+
+            for better performance~!
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions className={classes.cardActions}>
                 <Box className={classes.author}>
-                  <Avatar src="https://images.unsplash.com/photo-1584999734482-0361aecad844?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80" />
+                  <Avatar src="../public/image/1.png" />
                   <Box ml={2}>
                     <Typography variant="subtitle2" component="p">
-                      Guy Clemons
+                      Harry
                     </Typography>
                     <Typography variant="subtitle2" color="textSecondary" component="p">
-                      May 14, 2020
+                      May 1, 2020
                     </Typography>
                   </Box>
                 </Box>
