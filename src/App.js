@@ -97,7 +97,7 @@ class App extends React.Component{
                 </CardActionArea>
                 <CardActions>
                   <Box>
-                    <Avatar src="../public/image/1.png" />
+                    <Avatar src="%PUBLIC_URL%/image/1.png" />
                     <Box ml={2}>
                       <Typography variant="subtitle2" component="p">
                         Harry
@@ -133,7 +133,7 @@ class App extends React.Component{
                 </CardActionArea>
                 <CardActions>
                   <Box>
-                    <Avatar src="../public/image/1.png" />
+                    <Avatar src="%PUBLIC_URL%/image/1.png" />
                     <Box ml={2}>
                       <Typography variant="subtitle2" component="p">
                         Harry
@@ -168,7 +168,7 @@ class App extends React.Component{
                 </CardActionArea>
                 <CardActions>
                   <Box>
-                    <Avatar src="../public/image/1.png" />
+                    <Avatar src="%PUBLIC_URL%/image/1.png" />
                     <Box ml={2}>
                       <Typography variant="subtitle2" component="p">
                         Harry
@@ -210,7 +210,7 @@ class App extends React.Component{
                 </CardActionArea>
                 <CardActions>
                   <Box>
-                    <Avatar src="../public/image/1.png" />
+                    <Avatar src="1.png" />
                     <Box ml={2}>
                       <Typography variant="subtitle2" component="p">
                         Harry
